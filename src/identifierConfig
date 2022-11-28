@@ -1,0 +1,36 @@
+{
+    "alphabet":[
+    "a","b","c"
+    ],
+    "states":[
+        {
+            "stateType":"Initial",
+            "stateName":"p"
+        },
+        {
+            "stateType":"Final",
+            "stateName":"q"
+        },
+        {
+            "stateType":"Normal",
+            "stateName":"r"
+        }
+    ],
+    "transitions":[
+    {
+        "fromState":"p",
+        "toState":"q",
+        "name":"a"
+    },
+    {
+        "fromState":"p",
+        "toState":"q",
+        "name":"b"
+    },
+    {
+        "fromState":"p",
+        "toState":"q",
+        "name":"c"
+    }
+    ]
+}
